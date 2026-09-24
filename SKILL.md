@@ -9,6 +9,11 @@ Use this skill as the routing entry point for exporting or packaging content
 from supported assistant products, including WorkBuddy and QwenWork (千问办公),
 and for importing compatible assets into Doubao.
 
+## Repository
+
+The source repository for this skill is
+`https://github.com/Xcoder-xx/migrate-doubao-assets`.
+
 Identify the requested content type before loading a content-specific workflow.
 Do not assume that every import request is about skills.
 
