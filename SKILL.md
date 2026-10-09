@@ -25,8 +25,9 @@ Do not assume that every import request is about skills.
   work manual, custom prompt, `customPrompt`, or `AGENTS.md`, read
   `references/import-handbooks.md` completely and follow it.
 - Memories: When the user explicitly asks to import, export, package, sync, or
-  migrate memories, experiences, user preferences, `MEMORY.md`, `SOUL.md`, or
-  `USER.md`, read `references/import-memories.md` completely and follow it.
+  migrate memories, experiences, or `MEMORY.md`, read
+  `references/import-memories.md` completely and follow it. Do not route user
+  preferences, `SOUL.md`, or `USER.md` into this workflow.
 - MCP servers: When the user explicitly asks to import or export MCP server
   configurations, read `references/import-mcp.md` completely and follow it.
 - Sessions: When the user asks to find, inspect, export, archive, package,
@@ -52,8 +53,7 @@ those rules in this routing file.
 
 - Skill import packages: `references/import-skills.md`
 - Handbook import packages: `references/import-handbooks.md`
-- Memory import packages (experiences and user preferences):
-  `references/import-memories.md`
+- Memory experience import packages: `references/import-memories.md`
 - WorkBuddy and QwenWork MCP import packages: `references/import-mcp.md`
 - Session import packages: `references/import-sessions.md`
 - Final Doubao plugin import: `references/import-to-doubao.md`
